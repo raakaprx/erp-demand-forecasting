@@ -50,7 +50,7 @@ st.markdown("""
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("train_small.csv")
+    df = pd.read_csv("train.csv")
 
     # Ambil 50.000 baris pertama
     df = df.head(50000)
